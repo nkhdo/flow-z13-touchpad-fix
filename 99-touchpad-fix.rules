@@ -1,0 +1,2 @@
+ACTION=="add", KERNEL=="0003:0B05:1A30.*", SUBSYSTEM=="hid", \
+RUN+="/bin/bash -c 'sh /etc/scripts/touchpad-fix.sh'"
